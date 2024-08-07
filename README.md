@@ -24,9 +24,9 @@ Python image processing pipeline to support the diagnosis of Pectus Excavatum (P
 
 ### User Interface
 
-- **Description**: Development of an intuitive interface for doctors.
+- **Description**: Implementation of gradio interface.
 - **Features**: Allows uploading images, automatically calculates the Haller index, and provides predictions about surgical outcomes.
-- **Purpose**: Facilitate decision-making and improve the efficiency of the evaluation process.
+![image](https://github.com/user-attachments/assets/946c8bb9-0859-473d-b5ed-9149cb72d98e)
 
 ## System Requirements
 
