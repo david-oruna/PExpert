@@ -11,8 +11,8 @@ Python image processing pipeline to support the diagnosis of Pectus Excavatum (P
 ### Image Processing Module
 
 - **Description**: Generation of synthetic images due to the lack of real data, allowing the calculation of the Haller index and the creation of a database.
- ![image](https://github.com/user-attachments/assets/64598858-1556-47f5-acad-ef557e6f7faf)
 
+![image](https://github.com/user-attachments/assets/64598858-1556-47f5-acad-ef557e6f7faf)
 ![image](https://github.com/user-attachments/assets/1bafba1a-1025-457f-bcd1-7525a81dcf5d)
 
 
