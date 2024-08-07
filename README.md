@@ -1,15 +1,20 @@
 # PExpert
 
-Python image processing pipeline to support the diagnosis of Pectus Excavatum (PE). Allows automatic computation of existing clinical indexes used in PE diagnosis and treatment with unprecedented advantages of avoiding user bias and saving time. Then with the obtained results from patient pre and post-surgery data, we trained a ML model, making it possible to predict post-surgical indexes.
+Python image processing pipeline to support the diagnosis of Pectus Excavatum (PE). Allows automatic computation of existing clinical indexes (Haller Index) used in PE diagnosis and treatment with unprecedented advantages of avoiding user bias and saving time. Then with the obtained results from patient pre and post-surgery data, we trained a ML model, making it possible to predict post-surgical indexes.
 
 
 ## Project Structure
 
+![image](https://github.com/user-attachments/assets/b9e3815b-b041-46cb-9391-317d653fc0b2)
+
+
 ### Image Processing Module
 
 - **Description**: Generation of synthetic images due to the lack of real data, allowing the calculation of the Haller index and the creation of a database.
-- **Technologies**: Image processing, synthetic data generation.
-- **Purpose**: Create realistic and accurate images for model training.
+ ![image](https://github.com/user-attachments/assets/64598858-1556-47f5-acad-ef557e6f7faf)
+
+![image](https://github.com/user-attachments/assets/1bafba1a-1025-457f-bcd1-7525a81dcf5d)
+
 
 ### Outcome Prediction Module
 
