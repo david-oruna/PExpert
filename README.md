@@ -52,19 +52,9 @@ Pectus Excavatum (PE) is a congenital deformity of the chest wall that affects b
     pip install -r requirements.txt
     ```
 
-3. Run the image processing module:
+3. Run the user interface:
     ```bash
-    python image_processing.py
-    ```
-
-4. Train the outcome prediction model:
-    ```bash
-    python train_model.py
-    ```
-
-5. Run the user interface:
-    ```bash
-    python app.py
+    python pexpert.py
     ```
 
 ## Usage
