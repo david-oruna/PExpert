@@ -1,14 +1,7 @@
 # PExpert
 
-Python image processing pipeline to support the diagnosis of Pectus Excavatum (PE) and  pipeline allows automatic computation of existing clinical indexes used in PE diagnosis and tratment with unprecedented advantages of avoiding user bias and saving time. Moreover, with the obtained indexes it can predict possible post-surgical indexes outcomes.
+Python image processing pipeline to support the diagnosis of Pectus Excavatum (PE). Allows automatic computation of existing clinical indexes used in PE diagnosis and treatment with unprecedented advantages of avoiding user bias and saving time. Then with the obtained results from patient pre and post-surgery data, we trained a ML model, making it possible to predict post-surgical indexes.
 
-# Pectus Project
-
-The Pectus Project aims to develop an innovative tool that improves the evaluation and treatment of Pectus Excavatum by automating the calculation of the Haller index and predicting surgical outcomes.
-
-## Description
-
-Pectus Excavatum (PE) is a congenital deformity of the chest wall that affects both the appearance and functionality of the heart and lungs. The current manual evaluation is slow and prone to errors, and there are no accurate predictive tools for surgical outcomes. The Pectus Project aims to solve these problems by creating an automated system that uses advanced image processing techniques and neural networks.
 
 ## Project Structure
 
