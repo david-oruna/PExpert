@@ -73,7 +73,7 @@ For any questions or inquiries, please contact David at [d.huamanor@alum.up.edu.
 
 ---
 
-Thank you for your interest in the Pectus Project! Together, we can make a significant difference in the lives of those affected by this condition.
+Thank you for your interest in PExpert! Together, we can make a significant difference in the lives of those affected by this condition.
 
 ## Contributors:
 David Huaman
