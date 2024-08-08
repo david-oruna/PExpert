@@ -65,11 +65,7 @@ Python image processing pipeline to support the diagnosis of Pectus Excavatum (P
 
 ## Contributions
 
-Contributions are welcome. Please submit a pull request or open an issue to discuss any changes you would like to make.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+Contributions are welcome. 
 
 ## Contact
 
