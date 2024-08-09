@@ -24,7 +24,7 @@ Python image processing pipeline to support the diagnosis of Pectus Excavatum (P
 
 ### User Interface
 
-- **Description**: Implementation of gradio interface.
+- **Description**: Implementation of streamlit interface.
 - **Features**: Allows uploading images, automatically calculates the Haller index, and provides predictions about surgical outcomes.
 ![image](https://github.com/user-attachments/assets/946c8bb9-0859-473d-b5ed-9149cb72d98e)
 
@@ -33,7 +33,7 @@ Python image processing pipeline to support the diagnosis of Pectus Excavatum (P
 - Python 3.7 or higher
 - TensorFlow 2.0 or higher
 - Image processing libraries (OpenCV, PIL)
-- Framework for the user interface (gradio)
+- Framework for the user interface (streamlit)
 
 ## Installation
 
@@ -52,7 +52,7 @@ Python image processing pipeline to support the diagnosis of Pectus Excavatum (P
 
 3. Run the user interface:
     ```bash
-    python pexpert.py
+    streamlit run deploy/app.py
     ```
 
 ## Usage
