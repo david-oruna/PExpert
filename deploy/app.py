@@ -1,7 +1,6 @@
 import streamlit as st
 from PIL import Image, ImageOps
 import numpy as np
-from util import set_background
 import joblib
 import cv2
 import base64
