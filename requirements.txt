@@ -10,3 +10,4 @@ numpy==1.23.4
 
 # Streamlit para desplegar la aplicación
 streamlit==1.18.1
+joblib==1.2.0
