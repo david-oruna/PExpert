@@ -1,5 +1,3 @@
-# TensorFlow para redes neuronales
-tensorflow==2.10.0
 
 # OpenCV para procesamiento de imágenes
 opencv-python==4.5.5.62
