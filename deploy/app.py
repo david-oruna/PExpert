@@ -51,7 +51,7 @@ def haller_index_(img):
 # Function to test model
 def test_model(pectus_tomografía):
     indx = haller_index_(pectus_tomografía)
-    model = joblib.load('model.pkl')
+    model = joblib.load('deploy/model.pkl')
     prediction = np.array(model.predict(indx.reshape(-1, 1)))
     prediction_adjusted = np.round(prediction, 2) + 2
     indx_adjusted = np.round(indx, 2) + .5
