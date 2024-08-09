@@ -1,5 +1,5 @@
 # OpenCV para procesamiento de imágenes
-opencv-python-headless ==4.8.1.78
+opencv-python-headless ==4.10.0.84
 
 # Pillow para manipulación de imágenes
 Pillow==9.2.0
