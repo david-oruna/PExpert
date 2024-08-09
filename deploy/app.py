@@ -3,7 +3,7 @@ from PIL import Image
 import numpy as np
 from util import set_background
 import joblib
-
+import cv2
 def haller_index_(img):
     # Convert the image to a binary image using thresholding
 
