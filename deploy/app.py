@@ -1,9 +1,12 @@
 import streamlit as st
-from PIL import Image
+from PIL import Image, ImageOps
 import numpy as np
 from util import set_background
 import joblib
 import cv2
+import base64
+
+
 def haller_index_(img):
     # Convert the image to a binary image using thresholding
 
@@ -78,6 +81,33 @@ def test_model(pectus_tomografía):
     else:
         predictiont = 'Severe'
     return "Diagnóstico: \nÍndice de Haller Actual: {} ({})\n\nÍndice de Haller Post Operatorio: {} ({})\n\nRecomendaciones: {}".format(prediction_scalar, predictiont, indx_scalar, indxt, recomendaciones[predictiont])
+
+
+
+def set_background(image_file):
+    """
+    This function sets the background of a Streamlit app to an image specified by the given image file.
+
+    Parameters:
+        image_file (str): The path to the image file to be used as the background.
+
+    Returns:
+        None
+    """
+    with open(image_file, "rb") as f:
+        img_data = f.read()
+    b64_encoded = base64.b64encode(img_data).decode()
+    style = f"""
+        <style>
+        .stApp {{
+            background-image: url(data:image/png;base64,{b64_encoded});
+            background-size: cover;
+            
+        }}
+        </style>
+    """
+    st.markdown(style, unsafe_allow_html=True)
+
 
 if __name__ == "__main__":
     # Set background
