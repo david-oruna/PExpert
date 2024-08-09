@@ -1,0 +1,21 @@
+# OpenCV para procesamiento de imágenes
+opencv-python==4.5.5.62
+pickle5==0.0.11
+
+# Pillow para manipulación de imágenes
+Pillow==9.0.1
+
+# NumPy para cálculos numéricos
+numpy==1.23.4
+
+# Scikit-learn para utilidades de machine learning adicionales
+scikit_learn==1.2.2
+
+# Matplotlib para visualización de datos
+matplotlib==3.5.1
+
+# Pandas para manipulación de datos
+pandas==1.5.1
+
+# Streamlit para desplegar la aplicación
+streamlit==1.18.1
