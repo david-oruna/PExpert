@@ -119,8 +119,8 @@ if __name__ == "__main__":
     st.title("PExpert")
 
     st.markdown(body="Calculates *haller index* and predicts possible **post surgery results**", unsafe_allow_html=False, help=None)
-    sidebar_logo = "deploy/PEXPERT__1_-removebg-preview.png"
-    main_body_logo ="deploy/PEXPERT__2_-removebg-preview.png"
+    sidebar_logo = "deploy/logo1.png"
+    main_body_logo ="deploy/logo2.png"
     st.logo(sidebar_logo, icon_image=main_body_logo)
     st.sidebar.markdown("Steps: \n\n1. Upload your chest CT image in .png or .jpg format. \n\n2. Click on the 'Predict' button to get the results.")
 
