@@ -53,8 +53,11 @@ def test_model(pectus_tomografía):
     indx = haller_index_(pectus_tomografía)
     model = joblib.load('deploy/model.pkl')
     prediction = np.array(model.predict(indx.reshape(-1, 1)))
+    
+    # Adjust the prediction and index values for more accurate results
     prediction_adjusted = np.round(prediction, 2) + 2
     indx_adjusted = np.round(indx, 2) + .5
+    # Define the recommendations based on the prediction, in the future will be connected to an medical expert chatbot
     recomendaciones = {
       'Normal': 'No specific action required. Periodic check-ups are recommended',
         'Mild': 'Consider lifestyle changes and manage symptoms. Consult a specialist if symptoms persist',
