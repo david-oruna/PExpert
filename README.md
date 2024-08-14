@@ -26,7 +26,8 @@ Python image processing pipeline to support the diagnosis of Pectus Excavatum (P
 
 - **Description**: Implementation of streamlit interface.
 - **Features**: Allows uploading images, automatically calculates the Haller index, and provides predictions about surgical outcomes.
-![image](https://github.com/user-attachments/assets/946c8bb9-0859-473d-b5ed-9149cb72d98e)
+![image](https://github.com/user-attachments/assets/706524a9-067b-456d-aaca-06d23b02920e)
+
 
 ## System Requirements
 
